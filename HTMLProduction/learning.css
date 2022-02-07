@@ -1,0 +1,95 @@
+body{
+    background-image: url(./classroom.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-size: 20px;
+    font-family:serif;
+    background-repeat: no-repeat;
+    text-shadow: 3px 2px 0px black;
+    margin:  2px;
+    
+}
+
+.marginL{
+    margin-left: 100px;
+}
+.marginR{
+    margin-right: 30px;
+}
+
+.flex{
+    display: flex;
+}
+li{
+    margin: 20px;
+    transform: rotate(-20deg);
+    color: rgb(186, 231, 214);
+}
+li:hover{
+    transition: 0.7s;
+}
+
+h1{
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: 50px;
+    animation: color-change 20s linear infinite;
+}
+@keyframes color-change {
+    0%,100%{
+      color:darkgoldenrod;
+    }
+  
+    33%{
+      color:darkgreen;
+    }
+    
+    66%{
+      color:darkblue;
+    }
+    
+    
+  }
+h2{
+    display: inline-block;
+    transition: all .3s ease 0s;
+    color: rgb(101, 177, 101);
+}
+h2:hover{
+    transform: scale(1.2);
+}
+a{
+    color: darkorange;
+    text-decoration:none;
+    
+}
+
+a:hover{
+    cursor: pointer;
+    color: darkorange;
+    background: linear-gradient(270deg, black, rgb(49, 49, 223),white);
+    transition:all 500ms 0s ease;
+    transform: rotate(4deg);
+}
+.mojiLarge{
+    color: rgb(186, 231, 214);
+    font-size: 25px;
+    margin-left: 50px;
+    
+}
+.textarigin{
+    text-align: right;
+    margin-right: 200px;
+}
+p{
+    width: 180px;
+}
+p:hover{
+    animation: fadeOut 3s ease 0.3s 1 normal;
+}
+@keyframes fadeOut { 
+    0% {opacity: 1} 
+    100% {opacity: 0} 
+}
+
+
